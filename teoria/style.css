@@ -1,0 +1,204 @@
+body {
+    padding: 20px;
+    /*espaçamento interno*/
+    padding-bottom: 500px
+}
+
+p {
+    color: green;
+    font-size: 30px;
+}
+
+/* Classes e Ids*/
+.meu-paragrafo {
+    /* para selecionar a classe tem que por o . e o nome da classe*/
+    background-color: black;
+    color: red;
+}
+
+/*para selecionar a ID é so botar # e o nome*/
+#titulo-pagina {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-family: Helvetica;
+}
+
+/*elementos da página, listas */
+* {
+    font-family: arial;
+
+}
+
+p,
+h1 {
+    border-bottom: 1px solid red;
+}
+
+.nome-da-cor {
+    color: pink
+}
+
+.hexa {
+    color: #746874;
+    background-color: black;
+}
+
+.rgb {
+    color: rgb(10, 28, 39);
+}
+
+/* Fontes*/
+
+.serifada {
+    font-family: Georgia;
+}
+
+.sem-serifa {
+    font-family: Helvetica;
+}
+
+.mono-espacada {
+    font-family: 'Courier New';
+}
+
+/* Size e weight */
+
+.tamanho-fonte-grande {
+    font-size: 64px;
+}
+
+.tamanho-fonte-pequena {
+    font-size: 12px;
+}
+
+.peso-fonte {
+    font-weight: 800px;
+}
+
+/*Box Model*/
+
+.box-model {
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+.transforme-texto-maiusculo {
+    text-transform: uppercase;
+}
+
+.transforme-texto-minusculo {
+    text-transform: lowercase;
+}
+
+/*Espaçamento de linhas e letras*/
+.espacamento-texto {
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+/*Links*/
+
+.decoration {
+    text-decoration: none;
+}
+
+.visitado:visited {
+    color: orange;
+
+}
+
+.estilo-hover:hover {
+    background-color: blue;
+}
+
+/*link em bottom*/
+
+.btn {
+    background-color: #34ae56;
+    border: 3px solid blue;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+/*Listas*/
+
+.sem-estilo {
+    list-style: none;
+}
+
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco {
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+/*Position FIxed*/
+.elemento-fixo{
+    position: fixed;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+    color: #fff;
+}
+
+/*Pseudo seletor*/
+
+.primeiro-elemento p:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+/*Pseudo elemento*/
+.primeira-letra::first-letter{
+    font-size: 40px;
+    color: blue;
+    background-color: red;
+    padding: 4px;
+}
+/*Especifidade*/
+h2{
+    color: red;
+}
+.titulo{
+    color: green;
+}
+#meu-titulo-preferido{
+    color: burlywood;
+}
+
+/*IMPORTANT*/
+h2{
+    color: purple !important;
+}
